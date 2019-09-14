@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RateViewActivity">
+
+    <com.dy.klinelib.wigdet.KTabLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:k_select_color="@color/color_red"
+        app:k_unselect_color="@color/color_drak"
+        >
+
+        <com.dy.klinelib.wigdet.KTabView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+
+            app:k_text="分时"
+            app:k_textSize="16sp"/>
+
+        <com.dy.klinelib.wigdet.KTabView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            app:k_text="日K"
+            app:k_textSize="16sp"
+            />
+
+        <com.dy.klinelib.wigdet.KTabView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            app:k_text="5分钟"
+            app:k_textSize="16sp"
+            />
+
+        <com.dy.klinelib.wigdet.KTabView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            app:k_text="30分钟"
+            app:k_textSize="16sp"
+            />
+
+    </com.dy.klinelib.wigdet.KTabLayout>
+
+    <com.dy.klinelib.chart.view.KChartView
+        android:id="@+id/kChart"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        >
+
+
+    </com.dy.klinelib.chart.view.KChartView>
+</LinearLayout>

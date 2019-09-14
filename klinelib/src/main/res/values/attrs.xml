@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KTabView">
+        <attr name="k_text" format="string"></attr>
+        <attr name="k_textSize" format="dimension"></attr>
+        <attr name="k_select_color" format="color"></attr>
+        <attr name="k_unselect_color" format="color"></attr>
+    </declare-styleable>
+
+</resources>
